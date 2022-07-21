@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.anchor {
+    cursor: pointer;
+}
+
+.container.px-5.py-24.mx-auto.flex.flex-col.mg-0.pd-0 {
+    margin: 0;
+    padding: 0;
+}
+
+.social-links{
+    margin-right:20px;
+}
+
+body {
+    background-color: #c5d5cb;
+}
+
+header {
+    background-color: #62cc7e;
+}
+
+footer {
+    background-color:darkkhaki;
+}
+
+.footer-bg {
+    background-color: #62cc7e;
+}
+
+.border-3 {
+    border: 0.7vw solid rgb(255, 156, 27);
+}
